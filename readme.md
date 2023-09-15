@@ -47,19 +47,26 @@ You should now be able to access the application at `http://localhost:8000`.
 
 
 ## Usage
+
 Follow the following steps to send bulk sms
 
 - Copy the sms recepient numbers into the first column of the excel sheet located at the root of the public directory
 - Visit http://127.0.0.1:8000/import-phone-numbers in your web browser or make a get request with a REST client like [Postman](https://www.postman.com/product/rest-client/) to bulk send sms to the phone numbers in the excel sheet
 
+## Deployment
 
+To deploy this application to a production server, follow these steps:
+- Set up a production-ready web server (e.g., Nginx, Apache).
+- Configure your web server to point to the public directory.
+- Update the .env file with production-specific settings.
+- Ensure your server meets the PHP and database requirements.
+  
 ## Contributing
 
 I welcome contributions to enhance the this bulk sms application. If you find any bugs or have feature suggestions, please open an issue or submit a pull request. Make sure to follow the existing coding style and conventions.
 
 
 ## License
-
 This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contact

@@ -11,7 +11,7 @@
 
 ## Introduction
 
-This project demonstrates a feature I added to a laravel backend project I worked on. This is a web application built with Laravel that allows users to send bulk sms to phonenumbers in an excel sheet and can be customised for similar projects.
+This is a web application built with Laravel that allows users to send bulk sms to phonenumbers in an excel sheet and can be customised for similar projects.
 
 
 ## Installation
